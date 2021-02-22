@@ -1,20 +1,25 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header [translucent]="true" >
+  <ion-toolbar color="danger">
     <ion-title>
-      Blank
+      Accueil
     </ion-title>
+  </ion-toolbar>
+  <ion-toolbar  color="danger">
+    <ion-searchbar ></ion-searchbar>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="false" >
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Accueil</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-label> Votre identifiant</ion-label>
+    <ion-input type="text" placeholder = " Votre uid" clear-input >
+
+    </ion-input>
   </div>
 </ion-content>
